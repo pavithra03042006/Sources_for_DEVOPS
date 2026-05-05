@@ -1,0 +1,29 @@
+Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\compile
+Copied 99 artifacts from "[8mha:////4GGpYnugf6+pd3/p2fPL9xT7mJgvTMPTHgpfxRS0ODSsAAAAoh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQKmFQ0c/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLgFLFKeWlBboAwDUtqvdqQAAAA==[0mcalculator project » setup" build number [8mha:////4IygbWQabGtbxjyJqAi0dKZkN76qo4MhsUJOk5Z/dEj/AAAAox+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYVDTz8pP0k9OzEkuzUksyS9SNTIoKMrPSk0uAUsUp5aUFugb6gMA5SKHVKsAAAA=[0m1
+[compile] $ cmd.exe /C "mvn compile && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ETA:Calculator >---------------------------
+[INFO] Building Calc_Dev_Snapshot 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.11:prepare-agent (default) @ Calculator ---
+[INFO] argLine set to "-javaagent:C:\\Users\\spavi\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.11\\org.jacoco.agent-0.8.11-runtime.jar=destfile=C:\\Users\\spavi\\.jenkins\\workspace\\calculator project\\compile\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Calculator ---
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\spavi\.jenkins\workspace\calculator project\compile\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Calculator ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.143 s
+[INFO] Finished at: 2026-05-05T16:40:50+05:30
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Finished: SUCCESS

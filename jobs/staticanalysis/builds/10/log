@@ -1,0 +1,151 @@
+Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis
+Copied 200 artifacts from "[8mha:////4LbJLIVuUbTMw6TBrRobuctJHxlEge70+oaDCXe4jYGyAAAAqB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLGHQ1s/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLoFI5KekJueXpRYlpqfqAwAoiu/msAAAAA==[0mcalculator project » codecoverage" build number [8mha:////4F6uNolcEWH1Fp8CTDLMWoJyhWLF5IvbDPJDeNOxVIEEAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYdDVz8pP0k9OzEkuzUksyS9SNTIoKMrPSk0ugUjkp6Qm55elFiWmp+ob6gMA/+uvTbIAAAA=[0m1
+[staticanalysis] $ cmd.exe /C "mvn sonar:sonar -Dsonar.login=sqp_1bfe37fb20306293e0309f547ae40f2348fc0cbd && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ETA:Calculator >---------------------------
+[INFO] Building Calc_Dev_Snapshot 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- sonar:3.11.0.3922:sonar (default-cli) @ Calculator ---
+[INFO] 18:34:30.013 Java 21.0.8 Oracle Corporation (64-bit)
+[INFO] 18:34:30.013 Windows 11 10.0 (amd64)
+[INFO] 18:34:30.494 User cache: C:\Users\spavi\.sonar\cache
+[INFO] 18:34:30.698 Communicating with SonarQube Server 9.9.2.77730
+[INFO] 18:34:30.833 Default locale: "en_IN", source code encoding: "UTF-8" (analysis is platform dependent)
+[INFO] 18:34:32.154 Load global settings
+[INFO] 18:34:32.305 Load global settings (done) | time=154ms
+[INFO] 18:34:32.308 Server id: 147B411E-AZ33fUD-8jkSrZlsRqpz
+[INFO] 18:34:32.314 User cache: C:\Users\spavi\.sonar\cache
+[INFO] 18:34:32.321 Load/download plugins
+[INFO] 18:34:32.321 Load plugins index
+[INFO] 18:34:32.398 Load plugins index (done) | time=77ms
+[INFO] 18:34:32.593 Load/download plugins (done) | time=272ms
+[INFO] 18:34:33.894 Process project properties
+[INFO] 18:34:33.910 Process project properties (done) | time=16ms
+[INFO] 18:34:33.919 Execute project builders
+[INFO] 18:34:33.921 Execute project builders (done) | time=3ms
+[INFO] 18:34:33.931 Project key: ETA:Calculator
+[INFO] 18:34:33.931 Base dir: C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis
+[INFO] 18:34:33.931 Working dir: C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis\target\sonar
+[INFO] 18:34:33.948 Load project settings for component key: 'ETA:Calculator'
+[INFO] 18:34:34.398 Auto-configuring with CI 'Jenkins'
+[INFO] 18:34:34.407 Load quality profiles
+[INFO] 18:34:34.588 Load quality profiles (done) | time=181ms
+[INFO] 18:34:34.628 Load active rules
+[INFO] 18:34:37.259 Load active rules (done) | time=2631ms
+[INFO] 18:34:37.281 Load analysis cache
+[INFO] 18:34:37.295 Load analysis cache (404) | time=14ms
+[INFO] 18:34:37.501 Load project repositories
+[INFO] 18:34:37.598 Load project repositories (done) | time=97ms
+[INFO] 18:34:37.798 Indexing files...
+[INFO] 18:34:37.798 Project configuration:
+[INFO] 18:34:38.438 6 files indexed
+[INFO] 18:34:38.441 0 files ignored because of scm ignore settings
+[INFO] 18:34:38.445 Quality profile for java: Sonar way
+[INFO] 18:34:38.445 Quality profile for web: Sonar way
+[INFO] 18:34:38.445 Quality profile for xml: Sonar way
+[INFO] 18:34:38.445 ------------- Run sensors on module Calc_Dev_Snapshot
+[INFO] 18:34:38.715 Load metrics repository
+[INFO] 18:34:38.748 Load metrics repository (done) | time=33ms
+[INFO] 18:34:42.903 Sensor JavaSensor [java]
+[INFO] 18:34:42.922 Configured Java source version (sonar.java.source): 8
+[INFO] 18:34:42.943 JavaClasspath initialization
+[INFO] 18:34:42.990 JavaClasspath initialization (done) | time=47ms
+[INFO] 18:34:42.990 JavaTestClasspath initialization
+[INFO] 18:34:43.005 JavaTestClasspath initialization (done) | time=15ms
+[INFO] 18:34:43.023 Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[INFO] 18:34:43.028 Using ECJ batch to parse 2 Main java source files with batch size 103 KB.
+[INFO] 18:34:43.877 Starting batch processing.
+[INFO] 18:34:45.078 The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[INFO] 18:34:46.972 100% analyzed
+[INFO] 18:34:46.975 Batch processing: Done.
+[INFO] 18:34:46.979 Did not optimize analysis for any files, performed a full analysis for all 2 files.
+[INFO] 18:34:46.980 Using ECJ batch to parse 1 Test java source files with batch size 103 KB.
+[INFO] 18:34:46.988 Starting batch processing.
+[INFO] 18:34:47.105 100% analyzed
+[INFO] 18:34:47.106 Batch processing: Done.
+[INFO] 18:34:47.114 Did not optimize analysis for any files, performed a full analysis for all 1 files.
+[INFO] 18:34:47.114 No "Generated" source files to scan.
+[INFO] 18:34:47.115 Sensor JavaSensor [java] (done) | time=4214ms
+[INFO] 18:34:47.115 Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 18:34:47.118 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] 18:34:47.126 Importing 1 report(s). Turn your logs in debug mode in order to see the exhaustive list.
+[INFO] 18:34:47.167 Sensor JaCoCo XML Report Importer [jacoco] (done) | time=52ms
+[INFO] 18:34:47.167 Sensor CSS Rules [javascript]
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:14.259 Node.js version 22 is not recommended, you might experience issues. Please use a recommended version of Node.js [16, 18]
+[INFO] 18:35:14.277 1 source file to be analyzed
+[INFO] 18:35:14.855 1/1 source file has been analyzed
+[INFO] 18:35:14.858 Hit the cache for 0 out of 0
+[INFO] 18:35:14.862 Miss the cache for 0 out of 0
+[INFO] 18:35:14.862 Sensor CSS Rules [javascript] (done) | time=27695ms
+[INFO] 18:35:14.862 Sensor C# Project Type Information [csharp]
+[INFO] 18:35:14.864 Sensor C# Project Type Information [csharp] (done) | time=2ms
+[INFO] 18:35:14.864 Sensor C# Analysis Log [csharp]
+[INFO] 18:35:14.905 Sensor C# Analysis Log [csharp] (done) | time=41ms
+[INFO] 18:35:14.905 Sensor C# Properties [csharp]
+[INFO] 18:35:14.905 Sensor C# Properties [csharp] (done) | time=0ms
+[INFO] 18:35:14.905 Sensor SurefireSensor [java]
+[INFO] 18:35:14.905 parsing [C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis\target\surefire-reports]
+[INFO] 18:35:15.067 Sensor SurefireSensor [java] (done) | time=162ms
+[INFO] 18:35:15.069 Sensor HTML [web]
+[INFO] 18:35:15.166 Sensor HTML [web] (done) | time=97ms
+[INFO] 18:35:15.167 Sensor XML Sensor [xml]
+[INFO] 18:35:15.171 1 source file to be analyzed
+[INFO] 18:35:15.538 1/1 source file has been analyzed
+[INFO] 18:35:15.538 Sensor XML Sensor [xml] (done) | time=371ms
+[INFO] 18:35:15.538 Sensor TextAndSecretsSensor [text]
+[INFO] 18:35:15.550 5 source files to be analyzed
+[INFO] 18:35:15.586 5/5 source files have been analyzed
+[INFO] 18:35:15.588 Sensor TextAndSecretsSensor [text] (done) | time=50ms
+[INFO] 18:35:15.588 Sensor VB.NET Project Type Information [vbnet]
+[INFO] 18:35:15.589 Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+[INFO] 18:35:15.589 Sensor VB.NET Analysis Log [vbnet]
+[INFO] 18:35:15.609 Sensor VB.NET Analysis Log [vbnet] (done) | time=20ms
+[INFO] 18:35:15.609 Sensor VB.NET Properties [vbnet]
+[INFO] 18:35:15.609 Sensor VB.NET Properties [vbnet] (done) | time=0ms
+[INFO] 18:35:15.609 Sensor IaC Docker Sensor [iac]
+[INFO] 18:35:15.618 0 source files to be analyzed
+[INFO] 18:35:15.692 0/0 source files have been analyzed
+[INFO] 18:35:15.692 Sensor IaC Docker Sensor [iac] (done) | time=83ms
+[INFO] 18:35:15.698 ------------- Run sensors on project
+[INFO] 18:35:15.801 Sensor Analysis Warnings import [csharp]
+[INFO] 18:35:15.801 Sensor Analysis Warnings import [csharp] (done) | time=0ms
+[INFO] 18:35:15.801 Sensor Zero Coverage Sensor
+[INFO] 18:35:15.807 Sensor Zero Coverage Sensor (done) | time=6ms
+[INFO] 18:35:15.808 Sensor Java CPD Block Indexer
+[INFO] 18:35:15.837 Sensor Java CPD Block Indexer (done) | time=29ms
+[INFO] 18:35:15.845 SCM Publisher SCM provider for this project is: git
+[INFO] 18:35:15.848 SCM Publisher 5 source files to be analyzed
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:15.890 Could not find HEAD commit
+[INFO] 18:35:16.102 SCM Publisher 0/5 source files have been analyzed (done) | time=254ms
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:16.102 Missing blame information for the following files:
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:16.105   * src/main/java/CalculatorService.java
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:16.105   * src/test/java/CalculatorServiceTest.java
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:16.105   * pom.xml
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:16.107   * src/main/webapp/index.html
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:16.107   * src/main/java/CalculatorServlet.java
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 18:35:16.107 This may lead to missing/broken features in SonarQube
+[INFO] 18:35:16.117 CPD Executor Calculating CPD for 3 files
+[INFO] 18:35:16.148 CPD Executor CPD calculation finished (done) | time=31ms
+[INFO] 18:35:16.268 Analysis report generated in 108ms, dir size=155.3 kB
+[INFO] 18:35:16.327 Analysis report compressed in 59ms, zip size=29.4 kB
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  55.411 s
+[INFO] Finished at: 2026-05-05T18:35:24+05:30
+[INFO] ------------------------------------------------------------------------
+[8mha:////4FmLbBuRGBouV2i1sAK604YgBiguxSfz6YIlqvMBvxTSAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.11.0.3922:sonar (default-cli) on project Calculator: You're not authorized to run analysis. Please contact the project administrator. -> [Help 1]
+[8mha:////4FmLbBuRGBouV2i1sAK604YgBiguxSfz6YIlqvMBvxTSAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FmLbBuRGBouV2i1sAK604YgBiguxSfz6YIlqvMBvxTSAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4FmLbBuRGBouV2i1sAK604YgBiguxSfz6YIlqvMBvxTSAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4FmLbBuRGBouV2i1sAK604YgBiguxSfz6YIlqvMBvxTSAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FmLbBuRGBouV2i1sAK604YgBiguxSfz6YIlqvMBvxTSAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4FmLbBuRGBouV2i1sAK604YgBiguxSfz6YIlqvMBvxTSAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Archiving artifacts
+Finished: FAILURE

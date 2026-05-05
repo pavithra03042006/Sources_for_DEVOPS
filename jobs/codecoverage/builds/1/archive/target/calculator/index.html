@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+
+<style>
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: Arial;
+}
+
+/* CALCULATOR BOX */
+.calculator{
+    width:340px;
+    padding:20px;
+    border-radius:20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* HEADING */
+h2{
+    text-align:center;
+    color:white;
+    margin-bottom:10px;
+    letter-spacing:2px;
+}
+
+/* DISPLAY */
+.display{
+    width:100%;
+    height:70px;
+    font-size:24px;
+    text-align:right;
+    padding:10px;
+    border:none;
+    border-radius:12px;
+    background: rgba(255,255,255,0.2);
+    color:white;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+/* BUTTON GRID */
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-top:15px;
+}
+
+/* BUTTON STYLE */
+button{
+    height:60px;
+    font-size:18px;
+    font-weight:bold;
+    border:none;
+    border-radius:12px;
+    background: linear-gradient(145deg, #ffffff33, #ffffff10);
+    color:white;
+    cursor:pointer;
+    transition:0.2s;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+/* HOVER */
+button:hover{
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.3);
+}
+
+/* CLEAR */
+button.clear{
+    background: linear-gradient(45deg, #f7971e, #ffd200);
+    color:black;
+}
+
+/* EQUAL */
+button.equal{
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+</style>
+
+<script>
+
+let num1 = "";
+let num2 = "";
+let op = "";
+let stage = 1;
+
+function add(val){
+
+    if(stage == 1){
+        if(isOp(val)){
+            op = val;
+            stage = 2;
+        }else{
+            num1 += val;
+        }
+    }else{
+        if(!isOp(val)){
+            num2 += val;
+        }
+    }
+
+    update();
+}
+
+function isOp(v){
+    return (v=="+" || v=="-" || v=="*" || v=="/");
+}
+
+function update(){
+    document.getElementById("display").value =
+        num1 + " " + op + " " + num2;
+}
+
+function clearAll(){
+    num1="";
+    num2="";
+    op="";
+    stage=1;
+    update();
+}
+
+function calculate(){
+    let n1 = parseFloat(num1);
+    let n2 = parseFloat(num2);
+    let result = 0;
+
+    if(op=="+") result = n1+n2;
+    if(op=="-") result = n1-n2;
+    if(op=="*") result = n1*n2;
+    if(op=="/") result = n1/n2;
+
+    document.getElementById("display").value =
+        num1 + " " + op + " " + num2 + " = " + result;
+
+    num1 = result.toString();
+    num2 = "";
+    op = "";
+    stage = 1;
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div class="calculator">
+
+<h2>Calculator</h2>
+
+<input type="text" id="display" class="display" readonly>
+
+<div class="buttons">
+
+<button class="clear" onclick="clearAll()">C</button>
+<button onclick="add('%')">%</button>
+<button onclick="add('/')">/</button>
+<button onclick="add('*')">*</button>
+
+<button onclick="add('7')">7</button>
+<button onclick="add('8')">8</button>
+<button onclick="add('9')">9</button>
+<button onclick="add('-')">-</button>
+
+<button onclick="add('4')">4</button>
+<button onclick="add('5')">5</button>
+<button onclick="add('6')">6</button>
+<button onclick="add('+')">+</button>
+
+<button onclick="add('1')">1</button>
+<button onclick="add('2')">2</button>
+<button onclick="add('3')">3</button>
+<button class="equal" onclick="calculate()">=</button>
+
+<button onclick="add('0')">0</button>
+
+</div>
+
+</div>
+
+</body>
+</html>

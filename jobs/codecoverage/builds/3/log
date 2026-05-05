@@ -1,0 +1,24 @@
+Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\codecoverage
+Copied 200 artifacts from "[8mha:////4Ew+ZHbkNHNSmKyAigGKuLMcTPa4RjJFUkegINtWWtVTAAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLWFQ18/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLgFLlOZllpSkFpfoAwAZQ9X2rAAAAA==[0mcalculator project » unittest" build number [8mha:////4LjFsPLnbbMTcFUPnEN0tqNdppKDx+bZMCmX7fj2k8qkAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYdDUz8pP0k9OzEkuzUksyS9SNTIoKMrPSk0uAUuU5mWWlKQWl+gb6gMAuByN564AAAA=[0m1
+[codecoverage] $ cmd.exe /C "mvn jacoco:report && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ETA:Calculator >---------------------------
+[INFO] Building Calc_Dev_Snapshot 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.11:report (default-cli) @ Calculator ---
+[INFO] Loading execution data file C:\Users\spavi\.jenkins\workspace\calculator project\codecoverage\target\jacoco.exec
+[INFO] Analyzed bundle 'Calc_Dev_Snapshot' with 4 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.630 s
+[INFO] Finished at: 2026-05-05T19:52:26+05:30
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Triggering a new build of [8mha:////4PdrAjZB19ccyq5Yr13plrXfoBUpXB7jm2V4rGrxmdT6AAAAth+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzlEgZd/az8JP3kxJzk0pzEkvwiVSODgqL8rNTkErBEcUliSWZyYl5iTmVxZrE+AA72rNziAAAA[0mcalculator project » staticanalysis
+Finished: SUCCESS

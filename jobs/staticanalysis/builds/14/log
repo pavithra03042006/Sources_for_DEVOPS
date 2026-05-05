@@ -1,0 +1,155 @@
+Started by upstream project "[8mha:////4OQS+1rjaqe9L2uDB7pfgyqoFO9q+R1hsWyoZwjN+zy9AAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZt/az8JP3kxJzk0pzEkvwiVSODgqL8rNTkEogE0O3J+WWpRYnpqfoA8lNl0uAAAAA=[0mcalculator project/codecoverage" build number [8mha:////4Gh4APO3+5DRlJoYdHQ8acR7EjXyQSNN/uFCgv8hbMObAAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh39rPwk/eTEnOTSnMSS/CJVI4OCovys1OQSiATQ7cn5ZalFiemp+kYAI1YSQ+EAAAA=[0m2
+originally caused by:
+ Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Started by upstream project "[8mha:////4OQS+1rjaqe9L2uDB7pfgyqoFO9q+R1hsWyoZwjN+zy9AAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZt/az8JP3kxJzk0pzEkvwiVSODgqL8rNTkEogE0O3J+WWpRYnpqfoA8lNl0uAAAAA=[0mcalculator project/codecoverage" build number [8mha:////4H1jLUq0Yu2nJryHZYmlqGxia1x4tI+wMcAWJckR+jcQAAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh39rPwk/eTEnOTSnMSS/CJVI4OCovys1OQSiATQ7cn5ZalFiemp+sYAtWYVNOEAAAA=[0m3
+originally caused by:
+ Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis
+Copied 200 artifacts from "[8mha:////4LbJLIVuUbTMw6TBrRobuctJHxlEge70+oaDCXe4jYGyAAAAqB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLGHQ1s/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLoFI5KekJueXpRYlpqfqAwAoiu/msAAAAA==[0mcalculator project » codecoverage" build number [8mha:////4Hz85VLnib0vBpL+9APH86nFOpPNWkBx4rxYntL0WTdIAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYdDVz8pP0k9OzEkuzUksyS9SNTIoKMrPSk0ugUjkp6Qm55elFiWmp+ob6wMAfYmZf7IAAAA=[0m3
+[staticanalysis] $ cmd.exe /C "mvn sonar:sonar -Dsonar.login=sqp_1bfe37fb20306293e0309f547ae40f2348fc0cbd -Dsonar.projectKey=Calculator && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ETA:Calculator >---------------------------
+[INFO] Building Calc_Dev_Snapshot 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- sonar:3.11.0.3922:sonar (default-cli) @ Calculator ---
+[INFO] 19:53:39.300 Java 21.0.8 Oracle Corporation (64-bit)
+[INFO] 19:53:39.313 Windows 11 10.0 (amd64)
+[INFO] 19:53:40.986 User cache: C:\Users\spavi\.sonar\cache
+[INFO] 19:53:41.441 Communicating with SonarQube Server 9.9.2.77730
+[INFO] 19:53:41.792 Default locale: "en_IN", source code encoding: "UTF-8" (analysis is platform dependent)
+[INFO] 19:53:44.459 Load global settings
+[INFO] 19:53:45.057 Load global settings (done) | time=608ms
+[INFO] 19:53:45.074 Server id: 147B411E-AZ33fUD-8jkSrZlsRqpz
+[INFO] 19:53:45.119 User cache: C:\Users\spavi\.sonar\cache
+[INFO] 19:53:45.141 Load/download plugins
+[INFO] 19:53:45.141 Load plugins index
+[INFO] 19:53:45.507 Load plugins index (done) | time=366ms
+[INFO] 19:53:45.961 Load/download plugins (done) | time=820ms
+[INFO] 19:53:49.374 Process project properties
+[INFO] 19:53:49.415 Process project properties (done) | time=41ms
+[INFO] 19:53:49.443 Execute project builders
+[INFO] 19:53:49.454 Execute project builders (done) | time=11ms
+[INFO] 19:53:49.484 Project key: Calculator
+[INFO] 19:53:49.487 Base dir: C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis
+[INFO] 19:53:49.487 Working dir: C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis\target\sonar
+[INFO] 19:53:49.551 Load project settings for component key: 'Calculator'
+[INFO] 19:53:49.652 Load project settings for component key: 'Calculator' (done) | time=101ms
+[INFO] 19:53:51.442 Auto-configuring with CI 'Jenkins'
+[INFO] 19:53:51.462 Load quality profiles
+[INFO] 19:53:52.214 Load quality profiles (done) | time=752ms
+[INFO] 19:53:52.351 Load active rules
+[INFO] 19:54:02.889 Load active rules (done) | time=10541ms
+[INFO] 19:54:02.966 Load analysis cache
+[INFO] 19:54:03.043 Load analysis cache (110 bytes) | time=79ms
+[INFO] 19:54:03.730 Load project repositories
+[INFO] 19:54:03.886 Load project repositories (done) | time=156ms
+[INFO] 19:54:04.410 Indexing files...
+[INFO] 19:54:04.414 Project configuration:
+[INFO] 19:54:05.969 6 files indexed
+[INFO] 19:54:05.972 0 files ignored because of scm ignore settings
+[INFO] 19:54:05.974 Quality profile for java: Sonar way
+[INFO] 19:54:05.978 Quality profile for web: Sonar way
+[INFO] 19:54:05.979 Quality profile for xml: Sonar way
+[INFO] 19:54:05.979 ------------- Run sensors on module Calc_Dev_Snapshot
+[INFO] 19:54:07.165 Load metrics repository
+[INFO] 19:54:07.294 Load metrics repository (done) | time=129ms
+[INFO] 19:54:15.144 Sensor JavaSensor [java]
+[INFO] 19:54:15.188 Configured Java source version (sonar.java.source): 8
+[INFO] 19:54:15.225 JavaClasspath initialization
+[INFO] 19:54:15.274 JavaClasspath initialization (done) | time=48ms
+[INFO] 19:54:15.274 JavaTestClasspath initialization
+[INFO] 19:54:15.296 JavaTestClasspath initialization (done) | time=22ms
+[INFO] 19:54:15.371 Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[INFO] 19:54:15.384 Using ECJ batch to parse 2 Main java source files with batch size 103 KB.
+[INFO] 19:54:17.094 Starting batch processing.
+[INFO] 19:54:18.649 The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[INFO] 19:54:23.364 100% analyzed
+[INFO] 19:54:23.364 Batch processing: Done.
+[INFO] 19:54:23.374 Did not optimize analysis for any files, performed a full analysis for all 2 files.
+[INFO] 19:54:23.390 Using ECJ batch to parse 1 Test java source files with batch size 103 KB.
+[INFO] 19:54:23.425 Starting batch processing.
+[INFO] 19:54:23.806 100% analyzed
+[INFO] 19:54:23.809 Batch processing: Done.
+[INFO] 19:54:23.815 Did not optimize analysis for any files, performed a full analysis for all 1 files.
+[INFO] 19:54:23.819 No "Generated" source files to scan.
+[INFO] 19:54:23.819 Sensor JavaSensor [java] (done) | time=8675ms
+[INFO] 19:54:23.822 Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 19:54:23.824 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] 19:54:23.840 Importing 1 report(s). Turn your logs in debug mode in order to see the exhaustive list.
+[INFO] 19:54:23.945 Sensor JaCoCo XML Report Importer [jacoco] (done) | time=122ms
+[INFO] 19:54:23.945 Sensor CSS Rules [javascript]
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:35.506 Node.js version 22 is not recommended, you might experience issues. Please use a recommended version of Node.js [16, 18]
+[INFO] 19:55:35.574 1 source file to be analyzed
+[INFO] 19:55:36.730 1/1 source file has been analyzed
+[INFO] 19:55:36.732 Hit the cache for 0 out of 0
+[INFO] 19:55:36.736 Miss the cache for 0 out of 0
+[INFO] 19:55:36.736 Sensor CSS Rules [javascript] (done) | time=72791ms
+[INFO] 19:55:36.736 Sensor C# Project Type Information [csharp]
+[INFO] 19:55:36.750 Sensor C# Project Type Information [csharp] (done) | time=12ms
+[INFO] 19:55:36.751 Sensor C# Analysis Log [csharp]
+[INFO] 19:55:36.832 Sensor C# Analysis Log [csharp] (done) | time=82ms
+[INFO] 19:55:36.832 Sensor C# Properties [csharp]
+[INFO] 19:55:36.836 Sensor C# Properties [csharp] (done) | time=4ms
+[INFO] 19:55:36.836 Sensor SurefireSensor [java]
+[INFO] 19:55:36.844 parsing [C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis\target\surefire-reports]
+[INFO] 19:55:37.132 Sensor SurefireSensor [java] (done) | time=296ms
+[INFO] 19:55:37.136 Sensor HTML [web]
+[INFO] 19:55:37.462 Sensor HTML [web] (done) | time=330ms
+[INFO] 19:55:37.464 Sensor XML Sensor [xml]
+[INFO] 19:55:37.474 1 source file to be analyzed
+[INFO] 19:55:38.401 1/1 source file has been analyzed
+[INFO] 19:55:38.404 Sensor XML Sensor [xml] (done) | time=940ms
+[INFO] 19:55:38.406 Sensor TextAndSecretsSensor [text]
+[INFO] 19:55:38.482 5 source files to be analyzed
+[INFO] 19:55:38.604 5/5 source files have been analyzed
+[INFO] 19:55:38.604 Sensor TextAndSecretsSensor [text] (done) | time=198ms
+[INFO] 19:55:38.606 Sensor VB.NET Project Type Information [vbnet]
+[INFO] 19:55:38.612 Sensor VB.NET Project Type Information [vbnet] (done) | time=8ms
+[INFO] 19:55:38.612 Sensor VB.NET Analysis Log [vbnet]
+[INFO] 19:55:38.680 Sensor VB.NET Analysis Log [vbnet] (done) | time=68ms
+[INFO] 19:55:38.680 Sensor VB.NET Properties [vbnet]
+[INFO] 19:55:38.682 Sensor VB.NET Properties [vbnet] (done) | time=2ms
+[INFO] 19:55:38.682 Sensor IaC Docker Sensor [iac]
+[INFO] 19:55:38.699 0 source files to be analyzed
+[INFO] 19:55:38.992 0/0 source files have been analyzed
+[INFO] 19:55:38.994 Sensor IaC Docker Sensor [iac] (done) | time=312ms
+[INFO] 19:55:39.006 ------------- Run sensors on project
+[INFO] 19:55:39.406 Sensor Analysis Warnings import [csharp]
+[INFO] 19:55:39.411 Sensor Analysis Warnings import [csharp] (done) | time=5ms
+[INFO] 19:55:39.414 Sensor Zero Coverage Sensor
+[INFO] 19:55:39.419 Sensor Zero Coverage Sensor (done) | time=5ms
+[INFO] 19:55:39.421 Sensor Java CPD Block Indexer
+[INFO] 19:55:39.632 Sensor Java CPD Block Indexer (done) | time=211ms
+[INFO] 19:55:39.654 SCM Publisher SCM provider for this project is: git
+[INFO] 19:55:39.688 SCM Publisher 5 source files to be analyzed
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:39.946 Could not find HEAD commit
+[INFO] 19:55:40.292 SCM Publisher 0/5 source files have been analyzed (done) | time=600ms
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:40.294 Missing blame information for the following files:
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:40.296   * src/main/java/CalculatorService.java
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:40.296   * src/test/java/CalculatorServiceTest.java
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:40.296   * pom.xml
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:40.296   * src/main/webapp/index.html
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:40.296   * src/main/java/CalculatorServlet.java
+[8mha:////4ASeFMMH/nZSGCIRJeGo7IEmDESIrUrPhBndZoVaGrwwAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 19:55:40.299 This may lead to missing/broken features in SonarQube
+[INFO] 19:55:40.351 CPD Executor Calculating CPD for 3 files
+[INFO] 19:55:40.431 CPD Executor CPD calculation finished (done) | time=79ms
+[INFO] 19:55:40.826 Analysis report generated in 352ms, dir size=155.2 kB
+[INFO] 19:55:41.022 Analysis report compressed in 196ms, zip size=29.4 kB
+[INFO] 19:55:41.478 Analysis report uploaded in 454ms
+[INFO] 19:55:41.486 ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=Calculator
+[INFO] 19:55:41.486 Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] 19:55:41.489 More about the report processing at http://localhost:9000/api/ce/task?id=AZ34h8fsBIdN8O5pf_kD
+[INFO] 19:56:01.732 Analysis total time: 2:15.206 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:26 min
+[INFO] Finished at: 2026-05-05T19:56:01+05:30
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Triggering a new build of [8mha:////4IMNMmT3J+sSNGcdDyzT57uFCHHhCSqHzPLpG0AAD1ftAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYl/az8JP3kxJzk0pzEkvwiVSODgqL8rNTkErBEeWKRPgDt0oMs1wAAAA==[0mcalculator project » war
+Finished: SUCCESS

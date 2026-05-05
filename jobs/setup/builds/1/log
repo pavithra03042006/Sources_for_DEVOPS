@@ -1,0 +1,21 @@
+Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\setup
+The recommended git tool is: NONE
+using credential github
+ > git.exe rev-parse --resolve-git-dir C:\Users\spavi\.jenkins\workspace\calculator project\setup\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/pavithra03042006/Calculator.git # timeout=10
+Fetching upstream changes from https://github.com/pavithra03042006/Calculator.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.47.1.windows.1'
+using GIT_ASKPASS to set credentials credential for github
+ > git.exe fetch --tags --force --progress -- https://github.com/pavithra03042006/Calculator.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 4bf1979d8edbd2d3c456c17658074734beef802b (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 4bf1979d8edbd2d3c456c17658074734beef802b # timeout=10
+Commit message: "message"
+First time build. Skipping changelog.
+Archiving artifacts
+Finished: SUCCESS

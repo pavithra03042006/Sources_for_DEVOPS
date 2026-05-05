@@ -1,0 +1,77 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.1100.ve9eed61d16c4">
+  <actions/>
+  <description></description>
+  <properties>
+    <com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain plugin="credentials@1502.v5c95e620ddfe">
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@1502.v5c95e620ddfe">
+              <id>cfbd457c-73ba-47ee-8a36-29995d090bac</id>
+              <description></description>
+              <username>pavithra03042006</username>
+              <password>{AQAAABAAAAAQv2ICeYYQ89uPcrFyB9O5ZZuyARWBe2DEJs9X/Sr2hlQ=}</password>
+              <usernameSecret>false</usernameSecret>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@1502.v5c95e620ddfe">
+              <id>github</id>
+              <description>credential for github</description>
+              <username>pavithra03042006</username>
+              <password>{AQAAABAAAAAQkzDJ6Apu+CV771rlcKc8qcnynTYpObt0o2SD2oQvts0=}</password>
+              <usernameSecret>true</usernameSecret>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@1502.v5c95e620ddfe">
+              <id>tomcat_credentail</id>
+              <description>credentail for tomcat</description>
+              <username>tomcat</username>
+              <password>{AQAAABAAAAAQyr096+NRTbOb2L7Q1WWC+yU/7GRRdxI5sAeY8HrYFW8=}</password>
+              <usernameSecret>true</usernameSecret>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+          </java.util.concurrent.CopyOnWriteArrayList>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
+  </properties>
+  <folderViews class="com.cloudbees.hudson.plugins.folder.views.DefaultFolderViewHolder">
+    <views>
+      <hudson.model.AllView>
+        <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
+        <name>All</name>
+        <filterExecutors>false</filterExecutors>
+        <filterQueue>false</filterQueue>
+        <properties class="hudson.model.View$PropertyList"/>
+      </hudson.model.AllView>
+      <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView plugin="build-pipeline-plugin@2.2.0">
+        <owner class="com.cloudbees.hudson.plugins.folder.Folder" reference="../../../.."/>
+        <name>pipeline</name>
+        <filterExecutors>false</filterExecutors>
+        <filterQueue>false</filterQueue>
+        <properties class="hudson.model.View$PropertyList"/>
+        <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
+          <firstJob>codecoverage</firstJob>
+        </gridBuilder>
+        <noOfDisplayedBuilds>1</noOfDisplayedBuilds>
+        <buildViewTitle></buildViewTitle>
+        <consoleOutputLinkStyle>Lightbox</consoleOutputLinkStyle>
+        <cssUrl></cssUrl>
+        <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
+        <alwaysAllowManualTrigger>false</alwaysAllowManualTrigger>
+        <showPipelineParameters>false</showPipelineParameters>
+        <rowHeaders class="au.com.centrumsystems.hudson.plugin.buildpipeline.extension.SimpleRowHeader"/>
+        <showPipelineParametersInHeaders>false</showPipelineParametersInHeaders>
+        <columnHeaders class="au.com.centrumsystems.hudson.plugin.buildpipeline.extension.NullColumnHeader"/>
+        <buildCard class="au.com.centrumsystems.hudson.plugin.buildpipeline.extension.StandardBuildCard"/>
+        <startsWithParameters>false</startsWithParameters>
+        <refreshFrequency>3</refreshFrequency>
+        <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
+      </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
+    </views>
+    <tabBar class="hudson.views.DefaultViewsTabBar"/>
+  </folderViews>
+  <healthMetrics/>
+  <icon class="com.cloudbees.hudson.plugins.folder.icons.StockFolderIcon"/>
+</com.cloudbees.hudson.plugins.folder.Folder>

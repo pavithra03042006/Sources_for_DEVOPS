@@ -1,0 +1,6 @@
+projectKey=ETA:Calculator
+serverUrl=http://localhost:9000
+serverVersion=9.9.2.77730
+dashboardUrl=http://localhost:9000/dashboard?id=ETA%3ACalculator
+ceTaskId=AZ3zbXRsjll01Yor95cy
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AZ3zbXRsjll01Yor95cy

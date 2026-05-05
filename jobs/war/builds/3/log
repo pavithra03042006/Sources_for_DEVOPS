@@ -1,0 +1,63 @@
+Started by upstream project "[8mha:////4H6ZPkFewxpqnRkOc1STZh3jPmoHYpik7ayMcxB6NpiwAAAAth+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzFEgZd/az8JP3kxJzk0pzEkvwiVSODgqL8rNTkErBEcUliSWZyYl5iTmVxZrE+AGmubRniAAAA[0mcalculator project/staticanalysis" build number [8mha:////4FaG3jnAsY9fg3UkZ4tlaAp/TKWU7Zy7NPnNgg/s8aJmAAAAuB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ9/az8JP3kxJzk0pzEkvwiVSODgqL8rNTkErBEcUliSWZyYl5iTmVxZrG+oTEAjfu8aOQAAAA=[0m13
+originally caused by:
+ Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+ Started by upstream project "[8mha:////4IUVB2CVGR+sy8362Ak457yutsPo0/ftvo2nsEWMjDr5AAAAwh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZzfTMLw9TUZAMLXVNL01RdE/PEVF0LY5NEXfOUFCOzpMQUC9OUVP2s/CT9ZKA/kvPLUosS01P1AW8XmAzsAAAA[0mcalculator project/codecoverage" build number [8mha:////4I4qSVT0rlpkWDENBETwLUBtFSJLZ1Eo0KQkU9R0NJ8WAAAAwh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgt9MwvD1NRkAwtdU0vTVF0T88RUXQtjk0Rd85QUI7OkxBQL05RU/az8JP1koD+S88tSixLTU/UNAZIxr/jtAAAA[0m1
+ originally caused by:
+  Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\war
+Copied 233 artifacts from "[8mha:////4Nc5fdcZ3RWignfumIKeZQjLTkGvOn3o5zHPU6FFNALmAAAAqx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLmHQ1c/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLgFLFJcklmQmJ+Yl5lQWZxbrAwBRZBAesgAAAA==[0mcalculator project » staticanalysis" build number [8mha:////4LOXQLHV02AZfkxfVHlFyPWF3Y5NFlU6pzYo3K8aTeHDAAAArh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmEw0M/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLgFLFJcklmQmJ+Yl5lQWZxbrGxrrAwBan8AvtQAAAA==[0m13
+[war] $ cmd.exe /C "mvn war:war && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ETA:Calculator >---------------------------
+[INFO] Building Calc_Dev_Snapshot 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- war:3.4.0:war (default-cli) @ Calculator ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [Calculator] in [C:\Users\spavi\.jenkins\workspace\calculator project\war\target\calculator]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\spavi\.jenkins\workspace\calculator project\war\src\main\webapp]
+[INFO] deleting outdated resource WEB-INF\lib\byte-buddy-1.14.14.jar
+[INFO] deleting outdated resource WEB-INF\lib\guava-33.1.0-jre.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-api-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-api-incubator-1.37.0-alpha.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-context-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-exporter-logging-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-sdk-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-sdk-common-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-sdk-logs-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-sdk-metrics-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\opentelemetry-sdk-trace-1.37.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-api-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-chrome-driver-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-chromium-driver-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-devtools-v122-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-devtools-v123-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-devtools-v124-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-devtools-v85-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-edge-driver-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-firefox-driver-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-http-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-ie-driver-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-java-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-json-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-manager-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-os-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-remote-driver-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-safari-driver-4.20.0.jar
+[INFO] deleting outdated resource WEB-INF\lib\selenium-support-4.20.0.jar
+[INFO] Building war: C:\Users\spavi\.jenkins\workspace\calculator project\war\target\calculator.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.763 s
+[INFO] Finished at: 2026-05-05T19:53:56+05:30
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Triggering a new build of [8mha:////4K+FZZX5jIdR+B43ZgptbhcGtp+teYJe6kkGqlINfm2uAAAAtB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAylEgYd/az8JP3kxJzk0pzEkvwiVSODgqL8rNTkErBESX5iUUlmWmIyUKpSHwDJ5QTP4QAAAA==[0mcalculator project » toartifactory
+Finished: SUCCESS

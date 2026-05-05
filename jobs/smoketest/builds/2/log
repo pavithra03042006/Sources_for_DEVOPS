@@ -1,0 +1,13 @@
+Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\smoketest
+Copied 2 artifacts from "[8mha:////4Fp/nkvr+xoMt1qpzfuY9IdVf61zhSHS/83IgVWPnvhjAAAAoB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQKGFQ0s/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLgFLlCcW6QMAq+KRSqcAAAA=[0mcalculator project » war" build number [8mha:////4ACq5qAyJ9IsreSFTgNbvAzdjByqf+KQ1pHW0/8RnJ8OAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYVDRz8pP0k9OzEkuzUksyS9SNTIoKMrPSk0uAUuUJxbpG+kDALa5nZGpAAAA[0m2
+[DeployPublisher][INFO] Attempting to deploy 2 war file(s)
+[DeployPublisher][INFO] Deploying C:\Users\spavi\.jenkins\workspace\calculator project\smoketest\CalculatorApp\target\calculator.war to container Tomcat 9.x Remote with context AddictionTracker
+  [C:\Users\spavi\.jenkins\workspace\calculator project\smoketest\CalculatorApp\target\calculator.war] is not deployed. Doing a fresh deployment.
+  Deploying [C:\Users\spavi\.jenkins\workspace\calculator project\smoketest\CalculatorApp\target\calculator.war]
+[DeployPublisher][INFO] Deploying C:\Users\spavi\.jenkins\workspace\calculator project\smoketest\target\calculator.war to container Tomcat 9.x Remote with context AddictionTracker
+  Redeploying [C:\Users\spavi\.jenkins\workspace\calculator project\smoketest\target\calculator.war]
+  Undeploying [C:\Users\spavi\.jenkins\workspace\calculator project\smoketest\target\calculator.war]
+  Deploying [C:\Users\spavi\.jenkins\workspace\calculator project\smoketest\target\calculator.war]
+Finished: SUCCESS

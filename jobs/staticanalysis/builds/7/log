@@ -1,0 +1,13 @@
+Started by user [8mha:////4CIui0CDXzJun459PFOlRN8whQr3rGiVZuz2xetHh/nzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9gsSyzJKMokQANUaRS8MAAAA=[0mS.Pavithra
+Running as SYSTEM
+Building in workspace C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis
+Copied 200 artifacts from "[8mha:////4LbJLIVuUbTMw6TBrRobuctJHxlEge70+oaDCXe4jYGyAAAAqB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLGHQ1s/KT9JPTsxJLs1JLMkvUjUyKCjKz0pNLoFI5KekJueXpRYlpqfqAwAoiu/msAAAAA==[0mcalculator project » codecoverage" build number [8mha:////4F6uNolcEWH1Fp8CTDLMWoJyhWLF5IvbDPJDeNOxVIEEAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYdDVz8pP0k9OzEkuzUksyS9SNTIoKMrPSk0ugUjkp6Qm55elFiWmp+ob6gMA/+uvTbIAAAA=[0m1
+[staticanalysis] $ cmd /c call C:\Users\spavi\AppData\Local\Temp\jenkins16164258574256374344.bat
+
+C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis>sonar:sonar -Dsonar.token=sqp_1bfe37fb20306293e0309f547ae40f2348fc0cbd 
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\spavi\.jenkins\workspace\calculator project\staticanalysis>exit 123 
+Build step 'Execute Windows batch command' marked build as failure
+Archiving artifacts
+Finished: FAILURE

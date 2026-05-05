@@ -1,0 +1,95 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>calculator project/toartifactory</upstreamProject>
+            <upstreamUrl>job/calculator%20project/job/toartifactory/</upstreamUrl>
+            <upstreamBuild>5</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>calculator project/war</upstreamProject>
+                <upstreamUrl>job/calculator%20project/job/war/</upstreamUrl>
+                <upstreamBuild>5</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>calculator project/staticanalysis</upstreamProject>
+                    <upstreamUrl>job/calculator%20project/job/staticanalysis/</upstreamUrl>
+                    <upstreamBuild>15</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UpstreamCause>
+                        <upstreamProject>calculator project/codecoverage</upstreamProject>
+                        <upstreamUrl>job/calculator%20project/job/codecoverage/</upstreamUrl>
+                        <upstreamBuild>4</upstreamBuild>
+                        <upstreamCauses>
+                          <hudson.model.Cause_-UserIdCause>
+                            <userId>Pavithra</userId>
+                          </hudson.model.Cause_-UserIdCause>
+                        </upstreamCauses>
+                      </hudson.model.Cause_-UpstreamCause>
+                      <hudson.model.Cause_-UpstreamCause>
+                        <upstreamProject>calculator project/codecoverage</upstreamProject>
+                        <upstreamUrl>681eec08-595e-47ae-834a-7dd26bad85de/job/codecoverage/</upstreamUrl>
+                        <upstreamBuild>1</upstreamBuild>
+                        <upstreamCauses>
+                          <hudson.model.Cause_-UserIdCause>
+                            <userId>Pavithra</userId>
+                          </hudson.model.Cause_-UserIdCause>
+                        </upstreamCauses>
+                      </hudson.model.Cause_-UpstreamCause>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>Pavithra</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                      <hudson.model.Cause_-UpstreamCause>
+                        <upstreamProject>calculator project/codecoverage</upstreamProject>
+                        <upstreamUrl>job/calculator%20project/job/codecoverage/</upstreamUrl>
+                        <upstreamBuild>5</upstreamBuild>
+                        <upstreamCauses>
+                          <hudson.model.Cause_-UserIdCause>
+                            <userId>Pavithra</userId>
+                          </hudson.model.Cause_-UserIdCause>
+                        </upstreamCauses>
+                      </hudson.model.Cause_-UpstreamCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.37-494.v06f9a_939d33a_">
+      <queuingDurationMillis>9186</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>9</buildableDurationMillis>
+      <waitingDurationMillis>9174</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@795.ve8e151429b_27"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>calculator.war</string>
+          <string>d7a55ed1f83e67e8ac8582f1d54766e3</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>129</queueId>
+  <timestamp>1777992942930</timestamp>
+  <startTime>1777992942951</startTime>
+  <result>SUCCESS</result>
+  <duration>30837</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\spavi\.jenkins\workspace\calculator project\smoketest</workspace>
+  <hudsonVersion>2.555.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
