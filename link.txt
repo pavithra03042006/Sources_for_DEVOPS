@@ -1,1 +1,4 @@
 https://drive.google.com/drive/folders/1Zz5jtaG3zaKB3dQTqc_rxMBQO18IXMbT?usp=sharing
+
+
+sonar:sonar -Dsonar.login=sqp_1bfe37fb20306293e0309f547ae40f2348fc0cbd -Dsonar.projectKey=Calculator
